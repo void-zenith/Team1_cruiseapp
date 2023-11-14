@@ -20,6 +20,10 @@
 		B19A312F2B02F80800190F8F /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A312E2B02F80800190F8F /* CreateAccountViewController.swift */; };
 		B19A31312B02F81500190F8F /* SingleCruiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A31302B02F81500190F8F /* SingleCruiseViewController.swift */; };
 		B19A31332B0303D000190F8F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A31322B0303D000190F8F /* HomeViewController.swift */; };
+		B19A31352B031D0B00190F8F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A31342B031D0B00190F8F /* CustomTableViewCell.swift */; };
+		B1AB86932B032E0A008740D8 /* CustomerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB86922B032E0A008740D8 /* CustomerInfoViewController.swift */; };
+		B1AB86952B032E3C008740D8 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB86942B032E3C008740D8 /* PaymentViewController.swift */; };
+		B1AB86972B033394008740D8 /* DisplayCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB86962B033394008740D8 /* DisplayCustomerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		B19A312E2B02F80800190F8F /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		B19A31302B02F81500190F8F /* SingleCruiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCruiseViewController.swift; sourceTree = "<group>"; };
 		B19A31322B0303D000190F8F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B19A31342B031D0B00190F8F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		B1AB86922B032E0A008740D8 /* CustomerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInfoViewController.swift; sourceTree = "<group>"; };
+		B1AB86942B032E3C008740D8 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		B1AB86962B033394008740D8 /* DisplayCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayCustomerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,10 @@
 				B19A312E2B02F80800190F8F /* CreateAccountViewController.swift */,
 				B19A31302B02F81500190F8F /* SingleCruiseViewController.swift */,
 				B19A31322B0303D000190F8F /* HomeViewController.swift */,
+				B19A31342B031D0B00190F8F /* CustomTableViewCell.swift */,
+				B1AB86922B032E0A008740D8 /* CustomerInfoViewController.swift */,
+				B1AB86942B032E3C008740D8 /* PaymentViewController.swift */,
+				B1AB86962B033394008740D8 /* DisplayCustomerViewController.swift */,
 			);
 			path = Team1_CruiseApp;
 			sourceTree = "<group>";
@@ -272,11 +284,15 @@
 			files = (
 				B19A312F2B02F80800190F8F /* CreateAccountViewController.swift in Sources */,
 				B19A31312B02F81500190F8F /* SingleCruiseViewController.swift in Sources */,
+				B19A31352B031D0B00190F8F /* CustomTableViewCell.swift in Sources */,
 				B19A31332B0303D000190F8F /* HomeViewController.swift in Sources */,
 				B19A30F72B02F4B300190F8F /* AppDelegate.swift in Sources */,
 				B19A312B2B02F7EA00190F8F /* SearchViewController.swift in Sources */,
 				B19A30F92B02F4B300190F8F /* SceneDelegate.swift in Sources */,
+				B1AB86952B032E3C008740D8 /* PaymentViewController.swift in Sources */,
 				B19A312D2B02F7F500190F8F /* LoginController.swift in Sources */,
+				B1AB86932B032E0A008740D8 /* CustomerInfoViewController.swift in Sources */,
+				B1AB86972B033394008740D8 /* DisplayCustomerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
