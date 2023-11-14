@@ -17,18 +17,6 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    @IBAction func BrowseCruisesBtn(_ sender: UIButton){
-        let control = storyboard?.instantiateViewController(identifier: "Search") as! SearchViewController
-        present(control, animated:true)
-    }
-    @IBAction func  SignInButtonAction(_ sender: UIButton)
-    { let control = storyboard?.instantiateViewController(identifier: "Login") as! LoginController
-        present(control, animated:true)
-    }
-    
-    @IBAction func CreateAccountButtonAction ( _ sender: UIButton){
-        let control = storyboard?.instantiateViewController(identifier: "CreateAccount") as! CreateAccountViewController
-           present(control, animated:true)
-    }
+   
 }
 

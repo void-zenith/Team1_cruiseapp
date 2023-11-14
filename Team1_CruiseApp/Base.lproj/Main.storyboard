@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="m7v-f7-GsF">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
@@ -24,14 +24,14 @@
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Tow-q2-H40">
-                                <rect key="frame" x="78" y="109" width="241" height="172"/>
+                                <rect key="frame" x="78" y="153" width="241" height="172"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="241" id="KFb-1z-X9f"/>
                                     <constraint firstAttribute="height" constant="172" id="tGb-Xt-Tep"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3R-Fx-VxO">
-                                <rect key="frame" x="16" y="600" width="361" height="63"/>
+                                <rect key="frame" x="16" y="619.33333333333337" width="361" height="63"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="361" id="MjD-Dm-9Mg"/>
                                     <constraint firstAttribute="height" constant="63" id="quX-wk-BPS"/>
@@ -40,11 +40,11 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Create an Account"/>
                                 <connections>
-                                    <action selector="CreateAccountButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gy0-rb-ohX"/>
+                                    <segue destination="Ulo-oz-ApX" kind="show" id="jcq-5p-0P3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bg9-TF-y61">
-                                <rect key="frame" x="47" y="329" width="302" height="49"/>
+                                <rect key="frame" x="47" y="373" width="302" height="49"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="25H-xJ-y0c"/>
                                     <constraint firstAttribute="width" constant="302" id="p4X-M1-ADz"/>
@@ -55,11 +55,11 @@
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="29"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="BrowseCruisesBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vJD-5v-0YC"/>
+                                    <segue destination="KRg-z6-cHf" kind="show" id="kcf-Ga-5wd"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZAh-tg-tk2">
-                                <rect key="frame" x="38" y="381" width="321" height="1"/>
+                                <rect key="frame" x="38" y="425" width="321" height="1"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="tintColor" red="0.93333333730000001" green="0.72156864399999998" blue="0.37647059560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -68,7 +68,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOU-zz-8z0">
-                                <rect key="frame" x="18" y="516" width="361" height="64"/>
+                                <rect key="frame" x="18" y="560" width="361" height="39.333333333333371"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="abl-29-0L8"/>
                                     <constraint firstAttribute="width" constant="361" id="xcR-LW-yRu"/>
@@ -79,7 +79,7 @@
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="SignInButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hDj-g9-Rzo"/>
+                                    <segue destination="rdi-vD-B7G" kind="show" id="YNo-8k-w0C"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -108,10 +108,11 @@
                             <constraint firstItem="Bg9-TF-y61" firstAttribute="top" secondItem="Tow-q2-H40" secondAttribute="bottom" constant="48" id="yTq-Sp-c4g"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="hDi-kW-0hR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="60" y="-163"/>
+            <point key="canvasLocation" x="985.49618320610682" y="-163.38028169014086"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="Y5b-rJ-fJI">
@@ -122,7 +123,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Browse Available Cruises" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vEe-Zo-O9h">
-                                <rect key="frame" x="16" y="64" width="226" height="24"/>
+                                <rect key="frame" x="16" y="108" width="226" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="mnj-Ha-4et"/>
                                 </constraints>
@@ -131,14 +132,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="LZO-4H-aoR">
-                                <rect key="frame" x="0.0" y="92" width="393" height="56"/>
+                                <rect key="frame" x="0.0" y="136" width="393" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="KRg-z6-cHf" id="Uk5-63-UD2"/>
                                 </connections>
                             </searchBar>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eAR-Gt-Vsc">
-                                <rect key="frame" x="0.0" y="166" width="393" height="698"/>
+                                <rect key="frame" x="0.0" y="210" width="393" height="654"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GsL-zM-Fxq">
                                         <rect key="frame" x="76" y="80" width="240" height="128"/>
@@ -207,7 +208,7 @@
                                             <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="LearnMoreBtnAction:" destination="KRg-z6-cHf" eventType="touchUpInside" id="J5h-Rq-4nv"/>
+                                            <segue destination="fiJ-U1-WEb" kind="show" id="X4j-ua-ReT"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jv0-df-GXF">
@@ -219,7 +220,7 @@
                                             <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="BookNowBtnAction:" destination="KRg-z6-cHf" eventType="touchUpInside" id="dgW-Bt-372"/>
+                                            <segue destination="fiJ-U1-WEb" kind="show" id="UAA-6Z-7eR"/>
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LocationIcon" translatesAutoresizingMaskIntoConstraints="NO" id="024-fb-1g3">
@@ -253,11 +254,12 @@
                         </constraints>
                     </view>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="GyT-Vq-nga"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZKi-u2-9jj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1992" y="-163"/>
+            <point key="canvasLocation" x="1411" y="573"/>
         </scene>
         <!--Single Cruise View Controller-->
         <scene sceneID="UYg-BN-qLU">
@@ -340,10 +342,11 @@
                         <viewLayoutGuide key="safeArea" id="emH-Tl-uaf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="D07-l1-rh0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4EJ-gM-lQE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2974.8091603053435" y="-163.38028169014086"/>
+            <point key="canvasLocation" x="2308" y="573"/>
         </scene>
         <!--Login Controller-->
         <scene sceneID="qc4-X8-jnQ">
@@ -400,7 +403,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Create an Account"/>
                                 <connections>
-                                    <action selector="CreateAccountBtnAction:" destination="rdi-vD-B7G" eventType="touchUpInside" id="HAW-rU-yuE"/>
+                                    <segue destination="Ulo-oz-ApX" kind="show" id="nEf-eU-XA2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tb6-pd-Ggn">
@@ -410,17 +413,18 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign in"/>
                                 <connections>
-                                    <action selector="SignUpBtnAction:" destination="rdi-vD-B7G" eventType="touchUpInside" id="yRX-cU-pEH"/>
+                                    <segue destination="KRg-z6-cHf" kind="show" id="oPK-h4-qvE"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LDq-JJ-cbT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Kz0-Xz-sQV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fN4-qT-hgK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1006.8702290076335" y="-163.38028169014086"/>
+            <point key="canvasLocation" x="1933.5877862595419" y="-163.38028169014086"/>
         </scene>
         <!--Create Account View Controller-->
         <scene sceneID="59x-Pf-6fs">
@@ -528,7 +532,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Create"/>
                                 <connections>
-                                    <action selector="CreateAccountBtnAction:" destination="Ulo-oz-ApX" eventType="touchUpInside" id="aDn-xe-94C"/>
+                                    <segue destination="KRg-z6-cHf" kind="show" id="Gwo-1x-cd8"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Already created an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yR3-At-egL">
@@ -552,12 +556,36 @@
                         <viewLayoutGuide key="safeArea" id="TXl-OO-qqc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="fye-Sd-TBa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="evX-Uj-miv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1007" y="564"/>
+            <point key="canvasLocation" x="581" y="573"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Tsa-uM-3lb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="m7v-f7-GsF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8l1-Q5-Yer">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="SDQ-rR-M0A"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CEO-qA-Cs9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="58.778625954198468" y="-163.38028169014086"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="jcq-5p-0P3"/>
+        <segue reference="UAA-6Z-7eR"/>
+        <segue reference="kcf-Ga-5wd"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="BackgroundImage" width="1078" height="1916.3333740234375"/>
         <image name="Bahamas Cruise" width="2730.666748046875" height="1821.3333740234375"/>
