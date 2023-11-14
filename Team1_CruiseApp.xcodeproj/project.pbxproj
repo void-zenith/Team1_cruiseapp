@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		B19A30F72B02F4B300190F8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A30F62B02F4B300190F8F /* AppDelegate.swift */; };
 		B19A30F92B02F4B300190F8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A30F82B02F4B300190F8F /* SceneDelegate.swift */; };
-		B19A30FB2B02F4B300190F8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A30FA2B02F4B300190F8F /* ViewController.swift */; };
 		B19A30FE2B02F4B300190F8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19A30FC2B02F4B300190F8F /* Main.storyboard */; };
 		B19A31002B02F4B500190F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19A30FF2B02F4B500190F8F /* Assets.xcassets */; };
 		B19A31032B02F4B500190F8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19A31012B02F4B500190F8F /* LaunchScreen.storyboard */; };
 		B19A310E2B02F4B500190F8F /* Team1_CruiseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A310D2B02F4B500190F8F /* Team1_CruiseAppTests.swift */; };
 		B19A31182B02F4B500190F8F /* Team1_CruiseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A31172B02F4B500190F8F /* Team1_CruiseAppUITests.swift */; };
 		B19A311A2B02F4B500190F8F /* Team1_CruiseAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A31192B02F4B500190F8F /* Team1_CruiseAppUITestsLaunchTests.swift */; };
+		B19A312B2B02F7EA00190F8F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A312A2B02F7EA00190F8F /* SearchViewController.swift */; };
+		B19A312D2B02F7F500190F8F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A312C2B02F7F500190F8F /* LoginController.swift */; };
+		B19A312F2B02F80800190F8F /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A312E2B02F80800190F8F /* CreateAccountViewController.swift */; };
+		B19A31312B02F81500190F8F /* SingleCruiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A31302B02F81500190F8F /* SingleCruiseViewController.swift */; };
+		B19A31332B0303D000190F8F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A31322B0303D000190F8F /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		B19A30F32B02F4B300190F8F /* Team1_CruiseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Team1_CruiseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19A30F62B02F4B300190F8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B19A30F82B02F4B300190F8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B19A30FA2B02F4B300190F8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B19A30FD2B02F4B300190F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B19A30FF2B02F4B500190F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B19A31022B02F4B500190F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		B19A31132B02F4B500190F8F /* Team1_CruiseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Team1_CruiseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19A31172B02F4B500190F8F /* Team1_CruiseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team1_CruiseAppUITests.swift; sourceTree = "<group>"; };
 		B19A31192B02F4B500190F8F /* Team1_CruiseAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team1_CruiseAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B19A312A2B02F7EA00190F8F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B19A312C2B02F7F500190F8F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		B19A312E2B02F80800190F8F /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		B19A31302B02F81500190F8F /* SingleCruiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCruiseViewController.swift; sourceTree = "<group>"; };
+		B19A31322B0303D000190F8F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 			children = (
 				B19A30F62B02F4B300190F8F /* AppDelegate.swift */,
 				B19A30F82B02F4B300190F8F /* SceneDelegate.swift */,
-				B19A30FA2B02F4B300190F8F /* ViewController.swift */,
 				B19A30FC2B02F4B300190F8F /* Main.storyboard */,
 				B19A30FF2B02F4B500190F8F /* Assets.xcassets */,
 				B19A31012B02F4B500190F8F /* LaunchScreen.storyboard */,
 				B19A31042B02F4B500190F8F /* Info.plist */,
+				B19A312A2B02F7EA00190F8F /* SearchViewController.swift */,
+				B19A312C2B02F7F500190F8F /* LoginController.swift */,
+				B19A312E2B02F80800190F8F /* CreateAccountViewController.swift */,
+				B19A31302B02F81500190F8F /* SingleCruiseViewController.swift */,
+				B19A31322B0303D000190F8F /* HomeViewController.swift */,
 			);
 			path = Team1_CruiseApp;
 			sourceTree = "<group>";
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B19A30FB2B02F4B300190F8F /* ViewController.swift in Sources */,
+				B19A312F2B02F80800190F8F /* CreateAccountViewController.swift in Sources */,
+				B19A31312B02F81500190F8F /* SingleCruiseViewController.swift in Sources */,
+				B19A31332B0303D000190F8F /* HomeViewController.swift in Sources */,
 				B19A30F72B02F4B300190F8F /* AppDelegate.swift in Sources */,
+				B19A312B2B02F7EA00190F8F /* SearchViewController.swift in Sources */,
 				B19A30F92B02F4B300190F8F /* SceneDelegate.swift in Sources */,
+				B19A312D2B02F7F500190F8F /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
