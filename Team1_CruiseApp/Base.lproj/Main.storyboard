@@ -16,18 +16,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="BackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="swG-55-Omj">
-                                <rect key="frame" x="-114" y="0.0" width="625" height="1308"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1308" id="XZl-Ok-y2h"/>
-                                    <constraint firstAttribute="width" constant="625" id="ro1-fj-aSb"/>
-                                </constraints>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Tow-q2-H40">
                                 <rect key="frame" x="78" y="153" width="241" height="57"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="57" id="0sr-8h-ekI"/>
                                     <constraint firstAttribute="width" constant="241" id="KFb-1z-X9f"/>
                                     <constraint firstAttribute="height" constant="172" id="tGb-Xt-Tep"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="241" id="wV2-Jg-qkS"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3R-Fx-VxO">
@@ -227,7 +222,7 @@
             <objects>
                 <viewController storyboardIdentifier="Single" id="fiJ-U1-WEb" customClass="SingleCruiseViewController" customModule="Team1_CruiseApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B8Q-2T-eaw">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bahamas Cruise" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoO-DM-f93">
@@ -317,7 +312,7 @@
             <objects>
                 <viewController id="tev-7C-nSI" customClass="CustomerInfoViewController" customModule="Team1_CruiseApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q3k-jQ-wdU">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bahamas Cruise" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zj4-9H-Unb">
@@ -440,7 +435,7 @@
             <objects>
                 <viewController id="s2i-J9-8Ks" customClass="PaymentViewController" customModule="Team1_CruiseApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="scf-qK-pgz">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter your payment detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXb-1n-SEF">
@@ -529,7 +524,7 @@
             <objects>
                 <viewController id="bS8-QN-Fnf" customClass="DisplayCustomerViewController" customModule="Team1_CruiseApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cuO-er-e3u">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Booking Successful!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ieo-Qz-QXK">
@@ -646,7 +641,7 @@
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="fiJ-U1-WEb" kind="show" id="Cel-zF-DJO"/>
+                                    <segue destination="KRg-z6-cHf" kind="show" id="ouH-hy-ORj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -893,13 +888,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="99V-Nu-WgV"/>
-        <segue reference="jcq-5p-0P3"/>
-        <segue reference="Cel-zF-DJO"/>
-        <segue reference="kcf-Ga-5wd"/>
+        <segue reference="nEf-eU-XA2"/>
+        <segue reference="oPK-h4-qvE"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="BackgroundImage" width="1078" height="1916.3333740234375"/>
         <image name="Bahamas Cruise" width="2730.666748046875" height="1821.3333740234375"/>
         <image name="LocationIcon" width="21.333333969116211" height="21.333333969116211"/>
         <image name="Logo" width="74" height="57"/>
